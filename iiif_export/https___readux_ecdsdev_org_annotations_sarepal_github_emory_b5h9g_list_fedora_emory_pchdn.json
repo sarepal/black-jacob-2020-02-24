@@ -1,0 +1,57 @@
+{
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "annotatedBy": {
+                "name": "Sara E. Palmer"
+            },
+            "stylesheet": {
+                "value": ".anno-ed85e35f-c1cc-4ebe-a28e-1dd12561f444 { background: rgba(0, 191, 255, 0.5); }",
+                "type": "CssStylesheet"
+            },
+            "resource": {
+                "@type": "dctypes:Text",
+                "chars": "<p>note</p>",
+                "format": "text/html",
+                "language": "en"
+            },
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "motivation": "oa:commenting",
+            "@type": "oa:Annotation",
+            "@id": "ed85e35f-c1cc-4ebe-a28e-1dd12561f444",
+            "on": {
+                "full": "https://readux.ecdsdev.org/iiif/v2/emory:b5h9g/canvas/fedora:emory:pchdn",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@type": "sc:Manifest",
+                    "@id": "https://readux.ecdsdev.org/iiif/v2/emory:b5h9g/manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=257,825,843,28",
+                    "item": {
+                        "startSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='d1c655b3-ac9a-498a-ab23-884f52297646']",
+                            "refinedBy": {
+                                "start": 1,
+                                "@type": "TextPositionSelector"
+                            }
+                        },
+                        "@type": "RangeSelector",
+                        "endSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='e20cf769-ba22-420d-b98f-4f4779855ef3']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "end": 37
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://readux.ecdsdev.org/annotations/sarepal-github/emory:b5h9g/list/fedora:emory:pchdn"
+}
